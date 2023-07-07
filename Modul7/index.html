@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modul 7 - Javascript</title>
+  </head>
+  <body>
+    <script>
+      // a
+      function pengurangan(num1, num2) {
+        const result = num1 - num2;
+        return `${num1} - ${num2} = ${result}<br><br><br>`;
+      }
+      document.write(pengurangan(3, 2));
+
+      // b
+      function perkalian() {
+        const num1 = 5;
+        const num2 = 4;
+        const result = num1 * num2;
+        return `${num1} x ${num2} = ${result}`;
+      }
+      console.log(perkalian());
+
+      // c
+      function breakText(text) {
+        for (let i = 0; i < text.length; i++) {
+          const letter = text[i];
+          document.write(`Iterasi ke-${i} merupakan huruf ${letter}<br>`);
+        }
+      }
+      const text = "Hello World!";
+      breakText(text);
+    </script>
+  </body>
+</html>

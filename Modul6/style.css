@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins";
+  text-decoration: none;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.header .judul {
+  background-color: #333333f2;
+  padding: 1rem;
+  color: #f8f7f7ee;
+  border-radius: 5px;
+}
+
+.header .judul h1 {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.header .detail {
+  background-color: #333333c6;
+  padding: 12px;
+  color: #ffffffee;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
+.header .detail h2 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.menu {
+  background-color: #eeeeee;
+  padding: 1rem;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(127, 126, 126);
+}
+.menu ul {
+  display: flex;
+}
+
+.menu a {
+  color: #2b2b2b;
+  margin-right: 2rem;
+  padding: 5px;
+}
+
+.menu a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+.main {
+  display: flex;
+  background-color: #ffffffee;
+  padding: 1rem;
+  margin: 1rem 0 0 0;
+  justify-content: space-around;
+}
+
+.main .content {
+  background-color: #eeee;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(127, 126, 126);
+  flex: 4;
+  margin-right: 1rem;
+}
+
+.main .content h4 {
+  margin: 3rem 0 1rem 0;
+  text-align: center;
+}
+
+.main .content .jenis-fungsi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+/* * {
+  border: 1px solid black;
+} */
+
+.main .content .jenis-fungsi h5 {
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+
+.main .content .jenis-fungsi img {
+  height: 220px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.main .sidebar {
+  background-color: #eeee;
+  color: #eeee;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(127, 126, 126);
+  flex: 1;
+}
+
+.main .sidebar .register {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid rgb(136, 136, 136);
+}
+
+.main .sidebar .register h3,
+.links h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sidebar .register form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register form label {
+  font-size: 15px;
+}
+
+.register form input {
+  width: 60%;
+  height: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.register form .btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.register form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 45%;
+}
+
+.register form button:hover {
+  background-color: #555;
+}
+
+.main .sidebar .links {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: black;
+  margin-top: 1rem;
+  border: 1px solid rgb(136, 136, 136);
+}
+
+.footer {
+  background-color: #eeee;
+  padding: 1rem;
+  border: 1px solid rgb(127, 126, 126);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-weight: 500;
+  font-size: 17px;
+}

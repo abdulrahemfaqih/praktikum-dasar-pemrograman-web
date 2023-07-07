@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="data.html" method="post" autocomplete="off">
+      <fieldset>
+        <legend>Formulir</legend>
+        <table cellpadding="10"  align="center">
+          <tr>
+            <td>
+              <label for="fname">First Name</label>
+            </td>
+            <td>:
+              <input type="text" name="fname" id="fname" size="22" required autofocus>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="lname">Last Name</label>
+            </td>
+            <td>:
+              <input type="text" name="lname" id="lname" size="22" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email">Email</label>
+            </td>
+            <td>:
+              <input type="email" name="email" id="email" required size="22">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="username">Username</label>
+            </td>
+            <td>:
+              <input
+                type="text"
+                name="username"
+                id="username"
+                size="22"
+                maxlength="30"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password">Password</label>
+            </td>
+            <td>:
+              <input
+                type="password"
+                name="password"
+                id="password"
+                size="22"
+                maxlength="20"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="tlahir">Tanggal Lahir</label></td>
+            <td>:
+              <input type="date" name="tlahir" id="tlahir" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="telepon">Telepon</label></td>
+            <td>:
+              <input
+                type="tel"
+                name="telepon"
+                id="telepon"
+                size="22"
+                placeholder="xxx-xxxxxxx"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gender">Jenis Kelamin</label>
+            </td>
+            <td>:
+              <label for="male">Laki-laki</label>
+              <input type="radio" name="gender" id="male" value="male" />
+              <label for="female">Perempuan</label>
+              <input type="radio" name="gender" id="female" value="female" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="url">URL</label>
+            </td>
+            <td>:
+              <input type="url" name="url" id="url" size="22" required />
+            </td>
+          <tr>
+            <td>
+              <label for="angka">Angka (1-10)</label>
+            </td>
+            <td>:
+              <input type="number" name="angka" id="angka" mim="1" max="10" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="warna">Warna</label>
+            </td>
+            <td>:
+              <input type="color" name="warna" id="warna" required>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="rangeN">Tingkat kepuasaan terhadap produk</label></td>
+            <td>:
+              sangat tidak puas 
+              <input 
+                type="range" 
+                name="rangeM" 
+                id="rangeN"
+                min="0"
+                max="5"
+                value="4"
+                required
+              /> Sangat Puas
+            </td>
+          </tr>
+          <tr>
+            <td><label for="hobi">Pilih Hobi</label></td>
+            <td>:
+              <input name="hobi" id="hobi" list="hobies">
+              <datalist id="hobies">
+                <option value="berenang">
+                <option value="bersepeda">
+                <option value="berantem">
+                <option value="mengaji">
+                <option value="puasa">
+                <option value="main game">
+              </datalist>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="programS">Program Studi</label></td>
+            <td>:
+              <select name="programS" id="programS">
+                <option value="1">Teknik Informatika</option>
+                <option value="2">Teknik Industri</option>
+                <option value="3">Teknik Mekatronika</option>
+                <option value="4">Teknik Mesin</option>
+                <option value="5">Teknik Elektro</option>
+              </select> 
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="komentar">Komentar</label>
+            </td>
+            <td>:
+              <input 
+                type="text" 
+                name="komentar" 
+                id="komentar" 
+                placeholder="masukkan komentar"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="catatan">Catatan :</label>
+            </td>
+            <td>
+              <textarea name="catatan" id="catatan" cols="40" rows="6"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <label for="binary">Bersedia menerima iklan melalui email?<label>
+              <input type="checkbox" name="binary" id="binary" required/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </td>
+          </tr>
+          
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

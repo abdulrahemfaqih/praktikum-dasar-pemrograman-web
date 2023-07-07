@@ -1,0 +1,24 @@
+.header {
+  text-align: right;
+  background-color:#331663;
+  color: #dfdfdf;
+}
+.main .content {
+  color: #000000;
+  font-size: 10pt;
+  text-align: right;
+  font-family: verdana;
+}
+.main .content.satu {
+  background-color: #e3e2e2;
+}
+.main .content.dua {
+  background-color: #d6d6d6;
+}
+.main .content.tiga {
+  background-color: #d8d5d5;
+}
+
+.main .line {
+  border-top: 3px solid #2a4153;
+}
